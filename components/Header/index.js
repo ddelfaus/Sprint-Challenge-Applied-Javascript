@@ -38,12 +38,11 @@ temp.textContent = "90°"
 
 // adding things
 
-headerContainer.appendChild(header);
+
 header.appendChild(date);
 header.appendChild(title);
 header.appendChild(temp);
 
 return header;
 }
-
-Header();
+headerContainer.appendChild(Header());
