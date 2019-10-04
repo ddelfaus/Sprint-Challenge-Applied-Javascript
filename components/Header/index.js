@@ -13,7 +13,7 @@
 const headerContainer = document.querySelector('.header-container');
 
 
-function Header() {}
+function Header() {
 
 //creating elements
 
@@ -38,3 +38,12 @@ temp.textContent = "90°"
 
 // adding things
 
+headerContainer.appendChild(header);
+header.appendChild(date);
+header.appendChild(title);
+header.appendChild(temp);
+
+return header;
+}
+
+Header();
